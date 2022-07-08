@@ -1,5 +1,10 @@
-body{}header{}main{}section{}div{}form{}input{}h1{}h2{}p{}
-/* class */
-.bg-red{background-color: red;}
-/* id */
-#id{display: none;}
+.outer {
+  border: 5px solid black;
+}
+.box {
+  padding: 10px 0 10px 0;
+  /*width: calc(20% - (10px + 10px));width: calc(20% - 10px + 10px);width: calc(100% + 10px);*/
+  width: calc(100% - 30px);
+  background-color: rebeccapurple;
+  color: white;
+}
